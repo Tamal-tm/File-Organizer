@@ -3,7 +3,9 @@ Rename, Move, Copy, Delete a File in a Directory.
 
 This project helps manage files by automating common tasks such as cleaning up directories, organizing files into folders, or batch-renaming them.
 
-Features
+Heads Up: Got some errors in this code specifically in Copy and Delete python files due to src and setination path, file permission error. 
+
+1. Features
 
 Rename files with custom patterns.
 
@@ -15,7 +17,7 @@ Delete unwanted files from a directory.
 
 Basic error handling for missing files, invalid paths, and permissions.
 
-Learning Concepts
+2. Learning Concepts
 
 This project covers Python basics for file handling and organization:
 
@@ -27,10 +29,12 @@ Handling errors like FileNotFoundError and PermissionError.
 
 Understanding absolute vs relative paths.
 
-Notes
+3. Notes
 
 Always test on sample files first to avoid accidental data loss.
 
 Ensure you have correct permissions for the directories you’re working with.
 
 If working in OneDrive/Desktop, close any syncing apps that might lock the files.
+
+
